@@ -16,16 +16,21 @@
 
 */
 
-/* Utils */
+/* Vendors */
 /* All the 3rd party stuff */
 @import "./vendors/tailwind";
 
-/* Variables */
+/* Abstract */
 /* All the variables for use elsewhere. */
 @import "./abstracts/variables";
 
-/* Layout */
+/* Base */
 /* All the really base generic stuff */
+@import "./base/fonts";
+@import "./base/typography";
+
+/* Layout */
+/* All the bits that create the skeleton of the site */
 @import "./layout/container";
 @import "./layout/grid";
 
@@ -34,11 +39,11 @@
 @import "./components/button";
 @import "./components/carousel";
 
-/* Block */
-/*  The larger blocks of a site */
+/* Pages */
+/* Page specific styles */
 
-/*  Trump */
-/*  Anything really sticky that needs highest permission */
+/* Themes */
+/* Any alternate themes */
 
 /*  Shame */
 /*  Only for hot-fixes this should be empty ideally */

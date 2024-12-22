@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
 	content: ["./templates/**/*.html", "./templates/**/*.twig", "./src/**/*.js"],
 	theme: {
@@ -6,6 +8,13 @@ module.exports = {
 				"9xl": "1536px",
 			},
 			colors: {
+				pink: {
+					200: "var(--pink-200)",
+					400: "var(--pink-400)",
+				},
+				green: {
+					400: "var(--green-400)",
+				},
 				error: {
 					DEFAULT: "#F72C25",
 					dark: "#FE938C",
@@ -35,6 +44,11 @@ module.exports = {
 					"light-contrast": "#FFFFFF",
 					"dark-contrast": "#000000",
 				},
+			},
+			fontFamily: {
+				sans: ["ranchwater", ...defaultTheme.fontFamily.sans],
+				serif: ["montaga", ...defaultTheme.fontFamily.sans],
+				display: ["rattlesnake", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},

@@ -1,0 +1,26 @@
+/* Display Font */
+@font-face {
+	font-family: "rattlesnake";
+	src: url("/static/fonts/rattlesnake.woff2") format("woff2"),
+		url("/static/fonts/rattlesnake.woff") format("woff");
+}
+
+/* Serfi font */
+@font-face {
+	font-family: "montaga";
+	src: url("/static/fonts/montaga.woff2") format("woff2"),
+		url("/static/fonts/montaga.woff") format("woff");
+}
+
+@font-face {
+	font-family: "ranch-water";
+	src: url("/static/fonts/ranchwater.woff2") format("woff2"),
+		url("/static/fonts/ranchwater.woff") format("woff");
+	font-style: normal;
+}
+@font-face {
+	font-family: "ranch-water";
+	src: url("/static/fonts/ranchwater-italic.woff2") format("woff2"),
+		url("/static/fonts/ranchwater-italic.woff") format("woff");
+	font-style: italic;
+}
