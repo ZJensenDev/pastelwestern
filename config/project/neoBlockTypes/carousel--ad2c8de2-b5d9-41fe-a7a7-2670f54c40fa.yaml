@@ -1,0 +1,41 @@
+childBlocks:
+  - image
+conditions: null
+description: ''
+enabled: true
+field: e413ee0c-2cad-4f36-9880-a57ca450909c
+fieldLayouts:
+  7e692bdc-c3aa-494e-9f95-dbeb6ff93dc0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2761c3be-44fd-403b-8950-1ee965fccfb1 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b87dd35c-a2d5-49b5-9dfd-905482d21119
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: aa05ef47-d028-4607-acfb-22086e9c7e81
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: carousel
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 1
+minSiblingBlocks: 0
+name: Carousel
+topLevel: true

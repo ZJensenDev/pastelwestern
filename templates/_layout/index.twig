@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js fouc antialiased" lang="{{ craft.app.language|slice(0, 2) }}">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="utf-8" />
+		<meta name="viewport"
+			  content="width=device-width, initial-scale=1, minimum-scale=1" />
+		{% include '_includes/favicons' %}
+		{% include '_includes/asciiArt' %}
+		<link rel="stylesheet" href="{{ craft.vite.entry("main.css") }}">
+
+		{% hook 'seo' %}
+
+		{{ head() }}
+
+		<style>
+			[x-cloak] { display: none !important; }
+			.no-js img.lazyload { display: none; }
+		</style>
+	</head>
+	<body id="top" class="bg-gray-100">
+		
+		{% include '_partials/header' %}
+
+		<main id="main" class="section-grid container">
+			{% include '_includes/skipLink' %}
+			{% block main %}
+				Please contact your developer if this text is showing
+			{% endblock %}
+		</main>
+		
+		{% include '_partials/footer' %}
+		
+		{{ craft.vite.script('src/js/main.js') }}
+	</body>
+</html>

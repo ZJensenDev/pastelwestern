@@ -1,0 +1,52 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e413ee0c-2cad-4f36-9880-a57ca450909c
+fieldLayouts:
+  789a7063-1b8c-4a8a-989f-7957fe37c0f5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2761c3be-44fd-403b-8950-1ee965fccfb1 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 088be1a0-976e-4d0b-b9a9-fc0da51f8e72
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f97a975b-e641-4b69-937a-8f60b1bf09d7 # Copy Simple
+            instructions: null
+            label: Copy
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: babc5a12-1162-4e94-ac56-a518cbfee7c4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4e3875d9-9647-4d16-8fdc-a1a1fc8dbe06
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: blockqoute
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Blockqoute
+topLevel: true

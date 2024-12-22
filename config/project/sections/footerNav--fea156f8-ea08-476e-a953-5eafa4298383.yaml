@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 5e7808d8-a457-48ae-b8ad-8a9b1887b347 # Footer Nav
+handle: footerNav
+maxAuthors: 1
+name: 'Footer Nav'
+propagationMethod: all
+siteSettings:
+  2033dd80-8be0-4716-ba1a-9accdd5acd0e: # English
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

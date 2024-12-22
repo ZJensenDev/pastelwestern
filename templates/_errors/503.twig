@@ -1,0 +1,18 @@
+{% extends '_layouts/message' %}
+{% set title = 'Site Unavailable'|t('app') %}
+{% do seomatic.meta.seoTitle(title) %}
+
+{% block message %}
+	<h2 class="t-h2">
+		{{ title }}
+	</h2>
+	<div class="prose">
+		<p>
+			{{ message ?? null
+				?
+				: 'Our site is temporarily unavailable. Please try again later.'|t(
+					'app'
+				) }}
+		</p>
+	</div>
+{% endblock %}

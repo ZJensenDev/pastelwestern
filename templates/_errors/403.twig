@@ -1,0 +1,18 @@
+{% extends '_layouts/message' %}
+{% set title = 'Unauthorized'|t('app') %}
+{% do seomatic.meta.seoTitle(title) %}
+
+{% block message %}
+	<h2 class="t-h2">
+		{{ title }}
+	</h2>
+	<div class="prose">
+		<p>
+			{{ message ?? null
+				?
+				: 'You don’t have the proper credentials to access this page.'|t(
+					'app'
+				) }}
+		</p>
+	</div>
+{% endblock %}

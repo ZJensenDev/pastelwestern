@@ -1,0 +1,64 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: ffe5c78c-f990-4818-b85f-da52a3800eb7
+fieldLayouts:
+  098e6674-d18d-4391-9777-4d7b9598cbbd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 88cc190a-becb-415f-99e7-a5fca614c195
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fbb69724-25e8-4ecd-b6ff-b7c0087116fd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2761c3be-44fd-403b-8950-1ee965fccfb1 # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4ab2baba-b682-4499-a830-3a1f0e6b1471
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ae63477-4299-4680-b058-84f70f586e75
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de2bf3fd-9b5f-4996-bed4-5e3a4c8657a8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1963e5e5-2990-4096-8bde-5ff352470956
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: tall
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Tall
+topLevel: true

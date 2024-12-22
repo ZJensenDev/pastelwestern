@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - f4ded6c6-aa13-475e-afc1-35fb11608f85 # Work - Default
+handle: work
+maxAuthors: 1
+name: Work
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  2033dd80-8be0-4716-ba1a-9accdd5acd0e: # English
+    enabledByDefault: true
+    hasUrls: true
+    template: work/_entry
+    uriFormat: 'work/{slug}'
+structure:
+  maxLevels: 1
+  uid: 80ce044e-2827-4591-ab42-c0e8e28dcf84
+type: structure

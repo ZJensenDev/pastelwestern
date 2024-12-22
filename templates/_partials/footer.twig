@@ -1,0 +1,45 @@
+{#
+	
+	Page Footer
+
+#}
+
+	{# Required ---- #}
+	{% set footerNav = craft.entries.section('footerNav').level(1).all() %}
+	{% set siteName = siteName ?? 'Zac Jensen' %}
+	
+	{# Computed ---- #}
+	{% set startYear = 2023 %}
+	{% set currentYear = now|date('Y') %}
+	
+	{% if startYear == currentYear %}
+		{% set copyrightYears = startYear %}
+	{% else %}
+		{% set copyrightYears = startYear ~ ' - ' ~ currentYear %}
+	{% endif %}
+	
+{# Begin Content ---- #}
+
+<footer class="page-footer">
+	
+	<div class="page-footer--first-row">
+		<div class="footer-heading">{{ siteName }}</div>
+		<nav class="page-footer--nav-container">
+			<ul class="page-footer--nav">
+				{% nav node in footerNav %}
+					<li><a class="page-footer--link" href="{{ node.url }}">{{ node.title }}</a></li>
+					{% ifchildren %}
+						<ul>
+							{% children %}
+						</ul>
+					{% endifchildren %}
+				{% endnav %}
+			</ul>
+		</nav>
+	<div>
+		
+	<div class="page-footer--second-row">
+		<small>&copy; {{ copyrightYears }} Zac Jensen. All Rights Reserved </small>
+	</div>
+	
+</footer>

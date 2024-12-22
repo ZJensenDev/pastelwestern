@@ -1,0 +1,71 @@
+{#
+
+	Modal Component
+	https://alpinejs.dev/component/modal
+
+#}
+
+
+
+<div x-data="modal" class="flex justify-center">
+	
+	<!-- Trigger -->
+	<span @click="toggle(true)">
+		<button type="button" class="rounded-md bg-white px-5 py-2.5 shadow">
+			Open dialog
+		</button>
+	</span>
+ 
+	<!-- Modal -->
+	<div
+		x-show="open"
+		style="display: none"
+		role="dialog"
+		aria-modal="true"
+		class="fixed inset-0 z-10 overflow-y-auto"
+		x-id="['modal-title']"
+		:aria-labelledby="$id('modal-title')"
+		@keydown.escape.prevent.stop="toggle(false)"
+	>
+		<!-- Overlay -->
+		<div x-show="open" 
+			 x-transition.opacity 
+			 class="fixed inset-0 bg-black bg-opacity-50"></div>
+ 
+		<!-- Panel -->
+		<div
+			x-show="open" x-transition
+			@click="toggle(false)"
+			class="relative flex min-h-screen items-center justify-center p-4"
+		>
+			<div
+				x-on:click.stop
+				x-trap.noscroll.inert="open"
+				class="relative w-full max-w-2xl overflow-y-auto rounded-xl bg-white p-12 shadow-lg"
+			>
+				<!-- Title -->
+				<h2 class="text-3xl font-bold" 
+					:id="$id('modal-title')">Confirm</h2>
+ 
+				<!-- Content -->
+				<p class="mt-2 text-gray-600">Are you sure you want to learn how to create an awesome modal?</p>
+ 
+				<!-- Buttons -->
+				<div class="mt-8 flex space-x-2">
+					<button type="button" 
+							class="rounded-md border border-gray-200 bg-white px-5 py-2.5"
+							@click="toggle(false)" >
+						Confirm
+					</button>
+ 
+					<button type="button"  
+							class="rounded-md border border-gray-200 bg-white px-5 py-2.5"
+							@click="toggle(false)">
+						Cancel
+					</button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>

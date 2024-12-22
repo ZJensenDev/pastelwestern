@@ -1,0 +1,70 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e413ee0c-2cad-4f36-9880-a57ca450909c
+fieldLayouts:
+  bf584d2f-7d28-48d7-8d6c-b8ba58e5dabb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2761c3be-44fd-403b-8950-1ee965fccfb1 # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d3e91ca-f357-49e9-9081-9144023cba9d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ae63477-4299-4680-b058-84f70f586e75
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2db76485-4fb2-45d4-a53a-1451af53717f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 438b0911-a656-474e-9b19-5bd6685088c3
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 43a7dd45-0fa6-4d23-9c54-91656914b51f
+            instructions: null
+            label: Id
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6eaa7187-008c-420f-93c3-56c67a5ccbed
+            userCondition: null
+            warning: null
+            width: 100
+        name: Options
+        uid: 2a0256e8-2c47-4842-808e-98904d7becd0
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: sectionHeading
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 1
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Section Heading'
+topLevel: true

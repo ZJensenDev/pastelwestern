@@ -1,0 +1,33 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e413ee0c-2cad-4f36-9880-a57ca450909c
+fieldLayouts:
+  94822487-50e8-4f00-adfb-01c8f9bdc0b7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            type: benf\neo\fieldlayoutelements\ChildBlocksUiElement
+            uid: 9f90f107-c8d2-4687-96cf-03ad1fb4d85b
+            userCondition: null
+        name: Content
+        uid: 609b0a56-ad8f-4a2b-ae93-44a158d378d1
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: multiColumn
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Multi-Column
+topLevel: true

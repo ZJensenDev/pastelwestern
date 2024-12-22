@@ -1,0 +1,40 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e413ee0c-2cad-4f36-9880-a57ca450909c
+fieldLayouts:
+  17524f96-0638-4b71-a1f3-68fab6abf627:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ed29011b-7bd7-4194-af44-6e539670c75f # Copy
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 276d9052-af49-4959-8d31-4319899d5ea9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6386f30e-bbd2-4cd6-90b1-842c32d72af5
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: copy
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Copy
+topLevel: false

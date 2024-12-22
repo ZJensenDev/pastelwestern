@@ -1,0 +1,37 @@
+childBlocks:
+  - copy
+  - heading
+  - links
+  - image
+conditions: null
+description: ''
+enabled: true
+field: e413ee0c-2cad-4f36-9880-a57ca450909c
+fieldLayouts:
+  f94d6306-efd2-4b30-935a-53560a5a2bf6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            type: benf\neo\fieldlayoutelements\ChildBlocksUiElement
+            uid: 58310563-527d-4464-9e58-b882eba46bfb
+            userCondition: null
+        name: Content
+        uid: 8917536c-d509-40d5-be48-04a41ae288f6
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: longform
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 1
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Longform
+topLevel: true

@@ -1,0 +1,51 @@
+color: null
+fieldLayouts:
+  293ce49f-7a43-489d-8751-0103d8126c06:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-12-21T18:45:50+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c8e05bd7-983b-4736-9b27-900c8abeec68
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fdfd189e-42f5-4dc2-8a39-434be5010ae1
+        userCondition: null
+handle: blogIndex
+hasTitleField: false
+icon: null
+name: 'Blog Index'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

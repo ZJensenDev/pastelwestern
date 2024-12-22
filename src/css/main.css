@@ -1,0 +1,45 @@
+/*
+	
+	Based of 7-1 principle for SASS architecture
+	
+	---
+	
+	BEM scheme
+	
+	Should be formatted as such:
+	{{ block }}--{{ element }}__{{ modifier }}
+	
+	Block, Element, and Modifier names should be kebab case
+	1. Block: Encapsulates a standalone entity that is meaningful on its own.
+	2. Element: Semantically tied to a block and has no standalone meaning.
+	3. Modifiers: Flags on blocks or elements. Use them to change appearance, behavior or state.
+
+*/
+
+/* Utils */
+/* All the 3rd party stuff */
+@import "./vendors/tailwind";
+
+/* Variables */
+/* All the variables for use elsewhere. */
+@import "./abstracts/variables";
+
+/* Layout */
+/* All the really base generic stuff */
+@import "./layout/container";
+@import "./layout/grid";
+
+/* Component */
+/* All the smaller bits that make up a website */
+@import "./components/button";
+@import "./components/carousel";
+
+/* Block */
+/*  The larger blocks of a site */
+
+/*  Trump */
+/*  Anything really sticky that needs highest permission */
+
+/*  Shame */
+/*  Only for hot-fixes this should be empty ideally */
+/* https://youtu.be/M-9u6msqJNo?si=CdeOKUev_7i7n5E- */

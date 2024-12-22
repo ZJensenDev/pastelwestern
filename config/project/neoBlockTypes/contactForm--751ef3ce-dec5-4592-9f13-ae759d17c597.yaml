@@ -1,0 +1,40 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e413ee0c-2cad-4f36-9880-a57ca450909c
+fieldLayouts:
+  7abd1e08-ee0d-4a64-9bda-1530cc998ba4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f38a2ddb-19bf-4ace-b029-12af244ad85b # Form
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6dee6dc3-929c-4720-b3b2-881fb72998a0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7265537e-e0d1-4840-a47e-e846fe029e64
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: contactForm
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Contact Form'
+topLevel: true

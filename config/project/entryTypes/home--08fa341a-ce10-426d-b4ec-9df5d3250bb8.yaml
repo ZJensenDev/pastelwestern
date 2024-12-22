@@ -1,0 +1,51 @@
+color: null
+fieldLayouts:
+  9532152b-60d8-4b36-8880-ba8fc0a92981:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-12-21T18:45:50+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: adb701db-9bf4-4888-8de5-07d131287243
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3eb0bd95-2b06-4720-90d2-e88cc818d991
+        userCondition: null
+handle: home
+hasTitleField: false
+icon: null
+name: Home
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

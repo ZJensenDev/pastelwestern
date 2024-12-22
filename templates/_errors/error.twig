@@ -1,0 +1,14 @@
+{% extends '_layouts/message' %}
+{% set title = 'Oops!'|t('app') %}
+{% do seomatic.meta.seoTitle(title) %}
+
+{% block message %}
+	<h2 class="t-h2">
+		{{ title }}
+	</h2>
+	<div class="prose">
+		<p>
+			{{ message }}
+		</p>
+	</div>
+{% endblock %}

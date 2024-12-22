@@ -1,0 +1,21 @@
+columnSuffix: qjfzdhuk
+handle: copySimple
+instructions: null
+name: 'Copy Simple'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  ckeConfig: 57e9ea93-23bd-4863-bcbe-a2a08c9cba27 # Simple
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

@@ -1,0 +1,31 @@
+{#
+
+	Page Header
+
+#}
+
+	{# Required ---- #}
+	{% set headerNav = craft.entries.section('mainNav').level(1).all() %}
+
+{# Begin Content ----- #}
+
+<header 
+	class="flex"
+>
+	<div class="container">
+	
+		{% include '_includes/skipLink' %}
+			
+		<h1 class="page-heading">{{ siteName }}</h1>
+		
+		<nav class="page-nav--container">
+			<ul class="page-nav" id="pageNav">
+				{% for node in headerNav %}
+					<li><a class="page-nav--link" href="{{ node.url }}">{{ node.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+	
+	</div>
+	
+</header>

@@ -1,0 +1,486 @@
+dateModified: 1734904843
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Pages
+      type: heading
+    -
+      key: 'single:ee46ed6a-93cc-44c2-8d7e-e122f01a0385' # Home
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: 'single:fd7a6625-ebce-49e7-b455-f036dbbfe678' # Blog Index
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:7a0842c2-11a9-4ae9-bc14-5f2067fcd357' # Page(s)
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Stuff
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:8fe07187-2e58-47b4-9db6-bfcca5d65505' # Blog
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:d6fae2b8-62c7-4da8-8d2c-e858715a2734' # Work
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Navigation
+      type: heading
+    -
+      key: 'single:fea156f8-ea08-476e-a953-5eafa4298383' # Footer Nav
+      type: native
+    -
+      key: 'single:4999bcc3-58c5-4f9f-b5f2-fe66bef1dc97' # Main Nav
+      type: native
+    -
+      heading: ''
+      type: heading
+email:
+  fromEmail: zacjensencreative@gmail.com
+  fromName: English
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: false
+    name: Images
+    settings:
+      path: /uploads/images
+    type: craft\fs\Local
+    url: null
+meta:
+  __names__:
+    1ce65d44-0033-4fb6-bd83-f9eeab9fb046: 'Public Schema' # Public Schema
+    2b9d5f8e-8d8c-4588-a681-dcb4e6f97a2a: Default # Default
+    2be069d2-09e5-4ce2-ab1d-264f09be9f73: 'Blog Index' # Blog Index
+    2dc560f9-c887-4c0a-a370-09167f462284: Multi-Column # Multi-Column
+    4eaab2f1-df14-4d9c-881a-33f454d4ec8f: Work # Work
+    5e7808d8-a457-48ae-b8ad-8a9b1887b347: 'Footer Nav' # Footer Nav
+    5f2d70a3-af10-4428-a0b2-291573dea238: Image # Image
+    6f6cfb13-19f8-4635-8964-4b7fa1f5f08a: New # New
+    7a0842c2-11a9-4ae9-bc14-5f2067fcd357: Page(s) # Page(s)
+    07a76d4d-2158-4ef4-8bc1-a615aa9f4e5a: 'Main Nav' # Main Nav
+    7f37ad36-0c72-4fb6-8297-b22f949437e1: 'Section Heading' # Section Heading
+    8bdbff26-f79e-483c-bbb2-9e6a63c74129: Image # Image
+    8db535b4-92c1-47d8-9d63-2215461f5a22: Blog # Blog
+    08fa341a-ce10-426d-b4ec-9df5d3250bb8: Home # Home
+    8fe07187-2e58-47b4-9db6-bfcca5d65505: Blog # Blog
+    9c1500b3-8b34-41a2-8c49-0c776873640d: Heading # Heading
+    9f1ae826-cfc1-4211-9121-62e65c858171: Link(s) # Link(s)
+    27e7b679-0070-4bac-98c8-ad679b5de55d: Width # Width
+    57e9ea93-23bd-4863-bcbe-a2a08c9cba27: Simple # Simple
+    060d7f51-5615-4084-b959-e4876ae72bd3: Link(s) # Link(s)
+    88af3db8-82ef-4a83-bf78-3146761a137a: Work # Work
+    631acf38-8a38-485f-a5cf-8a885d448c80: Longform # Longform
+    751ef3ce-dec5-4592-9f13-ae759d17c597: 'Contact Form' # Contact Form
+    2033dd80-8be0-4716-ba1a-9accdd5acd0e: English # English
+    2761c3be-44fd-403b-8950-1ee965fccfb1: Heading # Heading
+    4999bcc3-58c5-4f9f-b5f2-fe66bef1dc97: 'Main Nav' # Main Nav
+    7495d0f0-6302-4f70-bb96-1cf3f4904b18: Column # Column
+    18082357-0ece-4e4d-b895-2b8a9d990349: Longform # Longform
+    a450ec90-be0a-4ea4-86fa-09497eda060f: 'Page(s) - Default' # Page(s) - Default
+    ad2c8de2-b5d9-41fe-a7a7-2670f54c40fa: Carousel # Carousel
+    b55ce059-69f2-4c73-88e1-51949e4faf8d: English # English
+    bb8cff09-408f-43b9-8fe2-6dd2d164bcd2: 'Contact Form' # Contact Form
+    cc7d236f-b0f9-46a4-88e0-5f8231041d70: 'Column Width' # Column Width
+    d6fae2b8-62c7-4da8-8d2c-e858715a2734: Work # Work
+    d859865b-ab5f-4d3c-95da-1bb8f075c433: Blockqoute # Blockqoute
+    e483320b-d356-4720-93fa-876823eb1ffd: Short # Short
+    eaef55ae-8e2d-4243-91ef-46f086f4626c: Copy # Copy
+    ed29011b-7bd7-4194-af44-6e539670c75f: Copy # Copy
+    ee46ed6a-93cc-44c2-8d7e-e122f01a0385: Home # Home
+    f4ded6c6-aa13-475e-afc1-35fb11608f85: 'Work - Default' # Work - Default
+    f38a2ddb-19bf-4ace-b029-12af244ad85b: Form # Form
+    f70c3d36-62f2-498d-88ca-c6fde0887664: Tall # Tall
+    f97a975b-e641-4b69-937a-8f60b1bf09d7: 'Copy Simple' # Copy Simple
+    f2026438-eaa5-4ed8-9aaf-7d211fb068f9: 'Plain Text' # Plain Text
+    fd7a6625-ebce-49e7-b455-f036dbbfe678: 'Blog Index' # Blog Index
+    fe0b3ea7-50dc-489b-a85c-9daa17919e6d: Images # Images
+    fea156f8-ea08-476e-a953-5eafa4298383: 'Footer Nav' # Footer Nav
+plugins:
+  assetusage:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  blur-hash:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  expanded-singles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.1
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: F5DDHOQ21WNR5S0HQSOLMWQ0
+    schemaVersion: 3.4.7
+  hyper:
+    edition: standard
+    enabled: true
+    licenseKey: 3TJ4L8V05QJSTWAQ8YU94YER
+    schemaVersion: 1.0.0
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: 6J8OU0CHOGALWI540C6QPLHM
+    schemaVersion: 4.0.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+  sherlock:
+    edition: lite
+    enabled: true
+    schemaVersion: 5.1.0
+    settings:
+      apiKey: npydudwcawejqswdlpatsyzdcxgyjrfo
+      blowfishHashCost:
+        __assoc__:
+          -
+            - threshold
+            - 13
+      contentSecurityPolicy:
+        __assoc__:
+          -
+            - canFail
+            - true
+      contentSecurityPolicySettings:
+        __assoc__:
+          -
+            - enabled
+            - false
+          -
+            - enforce
+            - false
+          -
+            - header
+            - true
+          -
+            - directives
+            -
+              -
+                - 1
+                - default-src
+                - '''self'''
+      cooldownDuration:
+        __assoc__:
+          -
+            - threshold
+            - 300
+      cors:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      craftFilePermissions:
+        __assoc__:
+          -
+            - canFail
+            - true
+      craftFolderPermissions:
+        __assoc__:
+          -
+            - canFail
+            - true
+      craftFoldersAboveWebRoot:
+        __assoc__:
+          -
+            - canFail
+            - true
+      criticalCraftUpdates:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      criticalPluginUpdates:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      defaultDirMode:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 509
+      defaultFileMode:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 436
+      defaultTokenDuration:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 86400
+      devMode:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      disabledTests: null
+      elevatedSessionDuration:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 300
+      enableCsrfProtection:
+        __assoc__:
+          -
+            - canFail
+            - true
+      headerProtectionSettings:
+        __assoc__:
+          -
+            - enabled
+            - true
+          -
+            - headers
+            -
+              -
+                - true
+                - Referrer-Policy
+                - no-referrer-when-downgrade
+              -
+                - true
+                - Strict-Transport-Security
+                - max-age=15552000
+              -
+                - true
+                - X-Content-Type-Options
+                - nosniff
+              -
+                - true
+                - X-Frame-Options
+                - SAMEORIGIN
+              -
+                - true
+                - X-Xss-Protection
+                - '1; mode=block'
+      highSecurityLevel: false
+      httpsControlPanel:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      httpsFrontEnd:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      integrationSettings: null
+      invalidLoginWindowDuration:
+        __assoc__:
+          -
+            - threshold
+            - 3600
+      maxInvalidLogins:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 5
+      maxScans: 100
+      monitor: false
+      notificationEmailAddresses: zacjensencreative@gmail.com
+      phpComposerVersion:
+        __assoc__:
+          -
+            - canFail
+            - true
+      phpVersion:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - thresholds
+            -
+              __assoc__:
+                -
+                  - '8.2'
+                  - '2027-01-01'
+                -
+                  - '8.3'
+                  - '2028-01-01'
+      preventUserEnumeration:
+        __assoc__:
+          -
+            - canFail
+            - true
+      referrerPolicy:
+        __assoc__:
+          -
+            - canFail
+            - true
+      rememberedUserSessionDuration:
+        __assoc__:
+          -
+            - threshold
+            - 12096004
+      requireEmailVerification:
+        __assoc__:
+          -
+            - canFail
+            - true
+      sanitizeSvgUploads:
+        __assoc__:
+          -
+            - canFail
+            - true
+      sendPoweredByHeader:
+        __assoc__:
+          -
+            - canFail
+            - false
+      strictTransportSecurity:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 15552000
+      testToEmailAddress:
+        __assoc__:
+          -
+            - canFail
+            - true
+      translationDebugOutput:
+        __assoc__:
+          -
+            - canFail
+            - true
+      useSecureCookies:
+        __assoc__:
+          -
+            - canFail
+            - true
+      userSessionDuration:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 3600
+      verificationCodeDuration:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 86400
+      webAliasInSiteBaseUrl:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      webAliasInVolumeBaseUrl:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      xContentTypeOptions:
+        __assoc__:
+          -
+            - canFail
+            - true
+      xFrameOptions:
+        __assoc__:
+          -
+            - canFail
+            - true
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  webperf:
+    edition: standard
+    enabled: true
+    licenseKey: 3HSKUV8888YS94MCACB1I3FY
+    schemaVersion: 1.0.1
+system:
+  edition: solo
+  live: true
+  name: $CRAFT_SITE_NAME
+  retryDuration: null
+  schemaVersion: 5.5.0.0
+  timeZone: America/Los_Angeles

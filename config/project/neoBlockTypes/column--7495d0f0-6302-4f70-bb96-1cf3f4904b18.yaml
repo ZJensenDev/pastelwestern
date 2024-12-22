@@ -1,0 +1,54 @@
+childBlocks:
+  - copy
+  - heading
+  - links
+conditions: null
+description: ''
+enabled: true
+field: e413ee0c-2cad-4f36-9880-a57ca450909c
+fieldLayouts:
+  56991a17-8580-4d17-9f1b-3a9ec60a31ae:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            type: benf\neo\fieldlayoutelements\ChildBlocksUiElement
+            uid: 67b2567d-fead-489f-9d33-6d826f2c5f1b
+            userCondition: null
+        name: Content
+        uid: bfebbe69-18e2-4c83-9fd2-f40e0ffe81de
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cc7d236f-b0f9-46a4-88e0-5f8231041d70 # Column Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c4f4bb5-ffad-4220-8aec-ba1e64fdce52
+            userCondition: null
+            warning: null
+            width: 100
+        name: Options
+        uid: 74e2d50f-26fc-484c-b522-d0d5df01b6b0
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: column
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Column
+topLevel: false

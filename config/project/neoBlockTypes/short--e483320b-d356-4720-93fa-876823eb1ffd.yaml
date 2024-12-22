@@ -1,0 +1,52 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: ffe5c78c-f990-4818-b85f-da52a3800eb7
+fieldLayouts:
+  c360b4ac-197e-492d-baab-7a6ace8ba2ed:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 88cc190a-becb-415f-99e7-a5fca614c195
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e2382ad-9f6f-4144-9cfc-3eaceca68c15
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2761c3be-44fd-403b-8950-1ee965fccfb1 # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c21ee3d2-9e7c-4390-985c-517f86d6a2d8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fe604692-4fd7-4684-9ef5-b2372f0c543b
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: short
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Short
+topLevel: true

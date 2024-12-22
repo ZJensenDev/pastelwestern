@@ -1,0 +1,20 @@
+{% extends '_layouts' %}
+{% set title = 'Page not found' %}
+{% do seomatic.meta.seoTitle(title) %}
+
+{% block content %}
+	{# TODO: Ensure this page respects the design, you can test it at /404error locally #}
+	<section class="container py-12">
+		<h2 class="t-h2">
+			{{ title }}
+		</h2>
+		<div class="prose">
+			<p>
+				The page you are looking for cannot be found. Perhaps it used to
+				be here and was moved or deleted, or maybe you’ve simply typed
+				in the wrong address. Whatever the case, let’s just start fresh
+				on <a href="/">the homepage</a>.
+			</p>
+		</div>
+	</section>
+{% endblock %}

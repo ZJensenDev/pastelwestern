@@ -1,0 +1,36 @@
+/*
+
+	Carousel Object
+	
+	goes against normal naming convention to follow glidejs classes
+
+*/
+
+@import "../../../node_modules/@glidejs/glide/dist/css/glide.core.min.css";
+@import "../../../node_modules/@glidejs/glide/dist/css/glide.theme.min.css";
+
+.glide {
+	@apply block relative px-12;
+
+	&__slide {
+		@apply flex flex-col items-center justify-center pb-6;
+	}
+
+	&__arrows {
+		@apply pointer-events-none absolute inset-0 flex items-center justify-between;
+	}
+	&__arrow {
+		@apply pointer-events-auto disabled:opacity-50;
+	}
+
+	&__bullets {
+		@apply flex w-full items-center justify-center gap-1;
+	}
+	&__bullet {
+		@apply h-3 w-3 rounded-full bg-gray-300 transition-colors;
+
+		&--active {
+			background: #333;
+		}
+	}
+}
