@@ -16,7 +16,7 @@ previewTargets:
         - '{url}'
 propagationMethod: all
 siteSettings:
-  2033dd80-8be0-4716-ba1a-9accdd5acd0e: # English
+  2033dd80-8be0-4716-ba1a-9accdd5acd0e: # $CRAFT_SITE_NAME
     enabledByDefault: true
     hasUrls: true
     template: work/_entry

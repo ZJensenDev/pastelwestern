@@ -41,7 +41,7 @@ fieldLayouts:
 handle: work
 name: Work
 siteSettings:
-  2033dd80-8be0-4716-ba1a-9accdd5acd0e: # English
+  2033dd80-8be0-4716-ba1a-9accdd5acd0e: # $CRAFT_SITE_NAME
     hasUrls: false
     template: null
     uriFormat: null

@@ -3,7 +3,7 @@ enabled: true
 handle: default
 hasUrls: true
 language: en
-name: English
+name: $CRAFT_SITE_NAME
 primary: true
 siteGroup: b55ce059-69f2-4c73-88e1-51949e4faf8d # English
 sortOrder: 1

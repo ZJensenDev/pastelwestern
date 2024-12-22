@@ -1,4 +1,4 @@
-dateModified: 1734904843
+dateModified: 1734905358
 elementSources:
   craft\elements\Entry:
     -
@@ -115,7 +115,7 @@ meta:
     88af3db8-82ef-4a83-bf78-3146761a137a: Work # Work
     631acf38-8a38-485f-a5cf-8a885d448c80: Longform # Longform
     751ef3ce-dec5-4592-9f13-ae759d17c597: 'Contact Form' # Contact Form
-    2033dd80-8be0-4716-ba1a-9accdd5acd0e: English # English
+    2033dd80-8be0-4716-ba1a-9accdd5acd0e: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
     2761c3be-44fd-403b-8950-1ee965fccfb1: Heading # Heading
     4999bcc3-58c5-4f9f-b5f2-fe66bef1dc97: 'Main Nav' # Main Nav
     7495d0f0-6302-4f70-bb96-1cf3f4904b18: Column # Column
@@ -170,15 +170,6 @@ plugins:
     enabled: true
     licenseKey: 3TJ4L8V05QJSTWAQ8YU94YER
     schemaVersion: 1.0.0
-  matrixmate:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  neo:
-    edition: standard
-    enabled: true
-    licenseKey: 6J8OU0CHOGALWI540C6QPLHM
-    schemaVersion: 4.0.0
   seo:
     edition: standard
     enabled: true
