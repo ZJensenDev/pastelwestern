@@ -1,4 +1,4 @@
-dateModified: 1734922001
+dateModified: 1734922698
 elementSources:
   craft\elements\Entry:
     -
@@ -84,12 +84,12 @@ email:
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   images:
-    hasUrls: false
+    hasUrls: true
     name: Images
     settings:
-      path: /uploads/images
+      path: '@webroot/uploads/images'
     type: craft\fs\Local
-    url: null
+    url: '@web/uploads/images'
 meta:
   __names__:
     0e1a8116-b880-4f4b-93c6-305b204e026a: FAQs # FAQs
