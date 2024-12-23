@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: dropdowns
+instructions: null
+name: Dropdown(s)
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    - e6e5e4f1-024a-46af-b977-e289735d2eeb # Dropdown
+  includeTableView: false
+  maxEntries: null
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

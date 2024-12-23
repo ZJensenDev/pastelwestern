@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 08fa341a-ce10-426d-b4ec-9df5d3250bb8 # Home
-handle: home
+  - 01a0c18d-3d43-40d2-865f-69907b5d8a80 # FAQs
+handle: faqs
 maxAuthors: 1
-name: Home
+name: FAQs
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   2033dd80-8be0-4716-ba1a-9accdd5acd0e: # $CRAFT_SITE_NAME
     enabledByDefault: true
     hasUrls: true
-    template: home
-    uriFormat: __home__
+    template: faqs/_entry.twig
+    uriFormat: faqs
 type: single

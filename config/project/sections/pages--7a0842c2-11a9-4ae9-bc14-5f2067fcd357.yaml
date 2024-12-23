@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - a450ec90-be0a-4ea4-86fa-09497eda060f # Page(s) - Default
+  - a450ec90-be0a-4ea4-86fa-09497eda060f
 handle: pages
 maxAuthors: 1
 name: Page(s)

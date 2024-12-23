@@ -1,4 +1,4 @@
-dateModified: 1734905358
+dateModified: 1734922001
 elementSources:
   craft\elements\Entry:
     -
@@ -92,12 +92,12 @@ fs:
     url: null
 meta:
   __names__:
+    0e1a8116-b880-4f4b-93c6-305b204e026a: FAQs # FAQs
+    01a0c18d-3d43-40d2-865f-69907b5d8a80: FAQs # FAQs
     1ce65d44-0033-4fb6-bd83-f9eeab9fb046: 'Public Schema' # Public Schema
-    2b9d5f8e-8d8c-4588-a681-dcb4e6f97a2a: Default # Default
-    2be069d2-09e5-4ce2-ab1d-264f09be9f73: 'Blog Index' # Blog Index
+    2d83a9e5-ef43-4e6a-b067-02c0ec2c208a: 'Contact Info' # Contact Info
     2dc560f9-c887-4c0a-a370-09167f462284: Multi-Column # Multi-Column
     4eaab2f1-df14-4d9c-881a-33f454d4ec8f: Work # Work
-    5e7808d8-a457-48ae-b8ad-8a9b1887b347: 'Footer Nav' # Footer Nav
     5f2d70a3-af10-4428-a0b2-291573dea238: Image # Image
     6f6cfb13-19f8-4635-8964-4b7fa1f5f08a: New # New
     7a0842c2-11a9-4ae9-bc14-5f2067fcd357: Page(s) # Page(s)
@@ -109,29 +109,34 @@ meta:
     8fe07187-2e58-47b4-9db6-bfcca5d65505: Blog # Blog
     9c1500b3-8b34-41a2-8c49-0c776873640d: Heading # Heading
     9f1ae826-cfc1-4211-9121-62e65c858171: Link(s) # Link(s)
+    25c500e9-b073-4438-aeae-9897b587a228: Image(s) # Image(s)
     27e7b679-0070-4bac-98c8-ad679b5de55d: Width # Width
     57e9ea93-23bd-4863-bcbe-a2a08c9cba27: Simple # Simple
     060d7f51-5615-4084-b959-e4876ae72bd3: Link(s) # Link(s)
+    79f43a2d-faed-48be-a62a-13d9eef0694f: Address # Address
     88af3db8-82ef-4a83-bf78-3146761a137a: Work # Work
     631acf38-8a38-485f-a5cf-8a885d448c80: Longform # Longform
     751ef3ce-dec5-4592-9f13-ae759d17c597: 'Contact Form' # Contact Form
+    813b1e8f-8db3-4e9d-a5d3-3916616b12cc: Accordion # Accordion
     2033dd80-8be0-4716-ba1a-9accdd5acd0e: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
     2761c3be-44fd-403b-8950-1ee965fccfb1: Heading # Heading
     4999bcc3-58c5-4f9f-b5f2-fe66bef1dc97: 'Main Nav' # Main Nav
     7495d0f0-6302-4f70-bb96-1cf3f4904b18: Column # Column
     18082357-0ece-4e4d-b895-2b8a9d990349: Longform # Longform
-    a450ec90-be0a-4ea4-86fa-09497eda060f: 'Page(s) - Default' # Page(s) - Default
     ad2c8de2-b5d9-41fe-a7a7-2670f54c40fa: Carousel # Carousel
     b55ce059-69f2-4c73-88e1-51949e4faf8d: English # English
+    b93a315d-3663-4a4c-b9df-817d4ee7c4c3: Artist # Artist
     bb8cff09-408f-43b9-8fe2-6dd2d164bcd2: 'Contact Form' # Contact Form
+    c3543792-bdc5-4e89-bca7-d0f557f04596: Accordion(s) # Accordion(s)
     cc7d236f-b0f9-46a4-88e0-5f8231041d70: 'Column Width' # Column Width
     d6fae2b8-62c7-4da8-8d2c-e858715a2734: Work # Work
     d859865b-ab5f-4d3c-95da-1bb8f075c433: Blockqoute # Blockqoute
+    e6e5e4f1-024a-46af-b977-e289735d2eeb: Dropdown # Dropdown
     e483320b-d356-4720-93fa-876823eb1ffd: Short # Short
     eaef55ae-8e2d-4243-91ef-46f086f4626c: Copy # Copy
     ed29011b-7bd7-4194-af44-6e539670c75f: Copy # Copy
     ee46ed6a-93cc-44c2-8d7e-e122f01a0385: Home # Home
-    f4ded6c6-aa13-475e-afc1-35fb11608f85: 'Work - Default' # Work - Default
+    f048ced9-f780-478e-b7da-dd1379533db0: Dropdown(s) # Dropdown(s)
     f38a2ddb-19bf-4ace-b029-12af244ad85b: Form # Form
     f70c3d36-62f2-498d-88ca-c6fde0887664: Tall # Tall
     f97a975b-e641-4b69-937a-8f60b1bf09d7: 'Copy Simple' # Copy Simple

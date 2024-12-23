@@ -1,0 +1,186 @@
+color: null
+fieldLayouts:
+  3cc87b63-314d-4926-8035-55b3731b3aa1:
+    cardView:
+      - 'layoutElement:fd9fef12-9105-40e1-ba7f-8a3b7f95cb6b'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-12-23T02:43:38+00:00'
+            elementCondition: null
+            heading: Banner
+            type: craft\fieldlayoutelements\Heading
+            uid: 5cee7f5c-ddcc-4dd6-b69c-03bdde463ddd
+            userCondition: null
+          -
+            dateAdded: '2024-12-23T02:43:38+00:00'
+            elementCondition: null
+            fieldUid: 5f2d70a3-af10-4428-a0b2-291573dea238 # Image
+            handle: headshot
+            includeInCards: true
+            instructions: null
+            label: Headshot
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd9fef12-9105-40e1-ba7f-8a3b7f95cb6b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-12-23T02:41:45+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Name
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c3b35e92-c4a5-43d8-a4c6-3f856a32e786
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:43:38+00:00'
+            elementCondition: null
+            fieldUid: f2026438-eaa5-4ed8-9aaf-7d211fb068f9 # Plain Text
+            handle: subheading
+            includeInCards: false
+            instructions: null
+            label: Subheading
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b69871ad-e1ab-46e4-824c-c85f11ddfd13
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:46:14+00:00'
+            elementCondition: null
+            fieldUid: 2d83a9e5-ef43-4e6a-b067-02c0ec2c208a # Contact Info
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9351f7e9-148e-4da7-b134-8c3b563320ff
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:46:14+00:00'
+            elementCondition: null
+            heading: Gallery
+            type: craft\fieldlayoutelements\Heading
+            uid: e56c0778-67d9-48cb-86cb-23cd77b45207
+            userCondition: null
+          -
+            dateAdded: '2024-12-23T02:46:14+00:00'
+            elementCondition: null
+            fieldUid: 25c500e9-b073-4438-aeae-9897b587a228 # Image(s)
+            handle: gallery
+            includeInCards: false
+            instructions: null
+            label: Gallery
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66141a9d-c451-4045-8a14-5299e44bff65
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:46:14+00:00'
+            elementCondition: null
+            heading: 'Booking Form'
+            type: craft\fieldlayoutelements\Heading
+            uid: c3f22ab4-dc41-4389-880b-9751ff7758bb
+            userCondition: null
+          -
+            dateAdded: '2024-12-23T02:46:14+00:00'
+            elementCondition: null
+            fieldUid: f2026438-eaa5-4ed8-9aaf-7d211fb068f9 # Plain Text
+            handle: formHeading
+            includeInCards: false
+            instructions: null
+            label: 'Form Heading'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: efa90010-1e15-4a50-afff-bf684f28688b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:46:14+00:00'
+            elementCondition: null
+            fieldUid: f97a975b-e641-4b69-937a-8f60b1bf09d7 # Copy Simple
+            handle: formCopy
+            includeInCards: false
+            instructions: null
+            label: 'Form Copy'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de4462e0-756f-443c-8a09-de1d4b7b6b2c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:46:14+00:00'
+            elementCondition: null
+            fieldUid: f38a2ddb-19bf-4ace-b029-12af244ad85b # Form
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e26e3176-1793-404f-b273-0fdb14157283
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fef4f764-4309-42ea-ae5d-cfb249afddc0
+        userCondition: null
+handle: artist
+hasTitleField: true
+icon: null
+name: Artist
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

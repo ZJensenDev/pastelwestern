@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 5e7808d8-a457-48ae-b8ad-8a9b1887b347 # Footer Nav
+  - 5e7808d8-a457-48ae-b8ad-8a9b1887b347
 handle: footerNav
 maxAuthors: 1
 name: 'Footer Nav'

@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 2be069d2-09e5-4ce2-ab1d-264f09be9f73 # Blog Index
+  - 2be069d2-09e5-4ce2-ab1d-264f09be9f73
 handle: blogIndex
 maxAuthors: 1
 name: 'Blog Index'

@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - f4ded6c6-aa13-475e-afc1-35fb11608f85 # Work - Default
+  - f4ded6c6-aa13-475e-afc1-35fb11608f85
 handle: work
 maxAuthors: 1
 name: Work

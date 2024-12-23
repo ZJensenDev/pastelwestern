@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 2b9d5f8e-8d8c-4588-a681-dcb4e6f97a2a # Default
+  - 2b9d5f8e-8d8c-4588-a681-dcb4e6f97a2a
 handle: blog
 maxAuthors: 1
 name: Blog

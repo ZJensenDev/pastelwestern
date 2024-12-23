@@ -6,32 +6,66 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2024-12-21T18:45:50+00:00'
-            disabled: false
+            dateAdded: '2024-12-23T02:35:55+00:00'
             elementCondition: null
-            id: null
+            fieldUid: f2026438-eaa5-4ed8-9aaf-7d211fb068f9 # Plain Text
+            handle: null
             includeInCards: false
-            inputType: null
+            instructions: null
+            label: Subheading
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 207e6f1a-7f28-42d6-b9f7-f32f3c20cc2b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:35:55+00:00'
+            elementCondition: null
+            fieldUid: f97a975b-e641-4b69-937a-8f60b1bf09d7 # Copy Simple
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Copy
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1bb820c5-2119-4e64-870b-c92d977eda6e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:39:13+00:00'
+            elementCondition: null
+            fieldUid: 25c500e9-b073-4438-aeae-9897b587a228 # Image(s)
+            handle: gallery
+            includeInCards: false
+            instructions: null
+            label: Gallery
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1daeacd5-242e-4022-bda8-5190dae870e7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T02:39:13+00:00'
+            elementCondition: null
+            fieldUid: 79f43a2d-faed-48be-a62a-13d9eef0694f # Address
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
             providesThumbs: false
-            readonly: false
-            required: true
-            size: null
-            step: null
+            required: false
             tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: adb701db-9bf4-4888-8de5-07d131287243
+            type: craft\fieldlayoutelements\CustomField
+            uid: 38634a64-01d1-4f4b-9cff-61e96502aec4
             userCondition: null
             warning: null
             width: 100
