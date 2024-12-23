@@ -1,0 +1,5 @@
+/* Headings */
+.t-h-m {
+	@apply font-sans uppercase text-pink-800;
+	@apply text-[1.125rem];
+}
