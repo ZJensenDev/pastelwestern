@@ -1,0 +1,31 @@
+{#
+	
+	Homepage Banner
+
+#}
+	
+	{# Optional #}
+	{% set subheading = entry.subheading ?? false %} {# Plain Text #}
+	{% set copy = entry.copy ?? false %} {# CKEditor - Simple #}
+
+{# Begin Content #}
+
+<section class="pt-36">
+	<div class="container">
+		<div class="max-w-[640px] mx-auto relative">
+			<img 
+				class="absolute w-[130%] -top-36 -left-[104px]
+						max-w-none" 
+				src="/static/img/skull.png" 
+			/>
+			<div class="relative z-20">
+				<h1 class="t-display-l -rotate-[16deg] text-center">
+					<span class="relative right-36">Pastel</span>
+					<span class="relative left-12">Western</span>
+				</h1>
+				<h2 class="t-h-l mt-[89px] text-center">{{ subheading }}</h2>
+				<div class="prose mt-16">{{ copy }}</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -2,4 +2,14 @@
 
 {% block main %}
 	
+	{% set homeBanner = {
+		subheading: entry.subheading,
+		copy: entry.copy
+	} %}
+	{% include "_partials/entry/homeBanner" %}
+	
+	{% set gallery = {
+		images: entry.gallery.all()	
+	} %} 
+	
 {% endblock %}

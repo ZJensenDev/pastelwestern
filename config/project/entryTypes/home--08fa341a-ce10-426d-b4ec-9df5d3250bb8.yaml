@@ -9,7 +9,7 @@ fieldLayouts:
             dateAdded: '2024-12-23T02:35:55+00:00'
             elementCondition: null
             fieldUid: f2026438-eaa5-4ed8-9aaf-7d211fb068f9 # Plain Text
-            handle: null
+            handle: subheading
             includeInCards: false
             instructions: null
             label: Subheading
@@ -25,7 +25,7 @@ fieldLayouts:
             dateAdded: '2024-12-23T02:35:55+00:00'
             elementCondition: null
             fieldUid: f97a975b-e641-4b69-937a-8f60b1bf09d7 # Copy Simple
-            handle: null
+            handle: copy
             includeInCards: false
             instructions: null
             label: Copy

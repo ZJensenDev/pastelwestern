@@ -10,22 +10,23 @@
 {# Begin Content ----- #}
 
 <header 
-	class="pt-9"
+	class="relative"
 >
-	<div class="container">
-	
-		{% include '_includes/skipLink' %}
-			
-		<h1 class="t-h-m">{{ siteName }}</h1>
+	<div class="absolute top-0 left-0 right-0 pt-9">
+		<div class="container">
 		
-		<nav class="page-nav--container">
-			<ul class="page-nav" id="pageNav">
-				{% for node in headerNav %}
-					<li><a class="page-nav--link" href="{{ node.url }}">{{ node.title }}</a></li>
-				{% endfor %}
-			</ul>
-		</nav>
-	
+			{% include '_includes/skipLink' %}
+				
+			<h1 class="t-h-m">{{ siteName }}</h1>
+			
+			<nav class="page-nav--container">
+				<ul class="page-nav" id="pageNav">
+					{% for node in headerNav %}
+						<li><a class="page-nav--link" href="{{ node.url }}">{{ node.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+		
+		</div>
 	</div>
-	
 </header>
