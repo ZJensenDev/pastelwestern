@@ -5,4 +5,25 @@
 		--pink-400: #f7a4a4;
 		--green-400: #829460;
 	}
+
+	/* Spacing */
+	:root {
+		--container-padding: 1rem;
+	}
+
+	@screen sm {
+		:root {
+			--container-padding: 2.5rem;
+		}
+	}
+	@screen md {
+		:root {
+			--container-padding: 5.25rem;
+		}
+	}
+	@screen lg {
+		:root {
+			--container-padding: 4.625rem;
+		}
+	}
 }

@@ -3,3 +3,15 @@
 	Define Grid
 
 */
+
+@layer utilities {
+	.layout-grid {
+		@apply grid grid-cols-2 gap-x-5
+			sm:grid-cols-12
+			md:gap-x-6
+			lg:gap-x-9;
+	}
+	.layout-grid-y {
+		@apply gap-5 md:gap-6 lg:gap-9;
+	}
+}

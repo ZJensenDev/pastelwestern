@@ -3,3 +3,11 @@
 	Containers
 	
 */
+
+@layer utilties {
+	.container {
+		@apply max-w-[1388px];
+		padding-left: var(--container-padding);
+		padding-right: var(--container-padding);
+	}
+}
