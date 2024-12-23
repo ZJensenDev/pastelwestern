@@ -1,0 +1,13 @@
+body {
+	@apply bg-pink-200;
+	position: relative;
+}
+.body--texture {
+	@apply absolute inset-0;
+	background-image: url("static/img/texture.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	mix-blend-mode: overlay;
+	opacity: 0.2;
+	z-index: -1;
+}

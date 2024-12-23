@@ -18,12 +18,11 @@
 			.no-js img.lazyload { display: none; }
 		</style>
 	</head>
-	<body id="top" class="bg-pink-200">
-		
+	<body id="top" class="body">
+		<div class="body--texture"></div>
 		{% include '_partials/header' %}
 
-		<main id="main" class="section-grid container">
-			{% include '_includes/skipLink' %}
+		<main id="main" class="min-h-screen">
 			{% block main %}
 				Please contact your developer if this text is showing
 			{% endblock %}

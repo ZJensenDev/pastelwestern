@@ -33,6 +33,7 @@
 /* All the bits that create the skeleton of the site */
 @import "./layout/container";
 @import "./layout/grid";
+@import "./layout/body";
 
 /* Component */
 /* All the smaller bits that make up a website */
