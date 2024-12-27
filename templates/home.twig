@@ -8,8 +8,12 @@
 	} %}
 	{% include "_partials/entry/homeBanner" %}
 	
-	{% set gallery = {
-		images: entry.gallery.all()	
-	} %} 
+	<section class="mt-16">
+		<div class="container">
+			<div class="max-w-[640px] mx-auto">
+				{% include '_components/carousel' with {slides: entry.gallery.all()} %}
+			</div>
+		</div>
+	</section>
 	
 {% endblock %}

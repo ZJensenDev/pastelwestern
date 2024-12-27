@@ -10,10 +10,10 @@
 @import "../../../node_modules/@glidejs/glide/dist/css/glide.theme.min.css";
 
 .glide {
-	@apply block relative px-12;
+	@apply block relative px-0;
 
 	&__slide {
-		@apply flex flex-col items-center justify-center pb-6;
+		@apply flex flex-col items-center justify-center;
 	}
 
 	&__arrows {
@@ -21,16 +21,21 @@
 	}
 	&__arrow {
 		@apply pointer-events-auto disabled:opacity-50;
+		@apply text-pink-800 bg-pink-200 border-none;
 	}
 
 	&__bullets {
-		@apply flex w-full items-center justify-center gap-1;
+		@apply flex w-full items-center justify-center gap-2 bottom-4;
 	}
 	&__bullet {
-		@apply h-3 w-3 rounded-full bg-gray-300 transition-colors;
+		@apply size-3.5 inline-block rounded-full bg-pink-400 border-pink-800 border transition-colors;
 
+		&:hover,
+		&:focus {
+			@apply bg-pink-400 border-pink-800 opacity-100;
+		}
 		&--active {
-			background: #333;
+			@apply !bg-pink-800;
 		}
 	}
 }

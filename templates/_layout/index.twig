@@ -12,7 +12,10 @@
 		{% hook 'seo' %}
 
 		{{ head() }}
-
+		
+		<script>
+			(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+		</script>
 		<style>
 			[x-cloak] { display: none !important; }
 			.no-js img.lazyload { display: none; }
